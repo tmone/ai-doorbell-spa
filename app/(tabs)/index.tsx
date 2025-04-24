@@ -303,7 +303,10 @@ export default function HomeScreen() {
           source={require('@/assets/images/banner.png')}
           style={styles.reactLogo}
         />
-      }>
+      }
+      appName="AI Doorbell"
+      appVersion="1.0.0.1"
+      showDepartmentLogos={true}>
       {renderContent()}
     </ParallaxScrollView>
   );
@@ -320,11 +323,13 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
+    width: '100%',
+    height: '100%', // Thay đổi từ 178px thành 100% để lấp đầy toàn bộ không gian
     position: 'absolute',
+    top: 0, // Thay vì bottom: 0, chúng ta dùng top: 0 để đảm bảo hình ảnh mở rộng từ trên xuống
+    left: 0,
+    right: 0, // Thêm right: 0 để đảm bảo hình ảnh trải rộng toàn bộ chiều ngang
+    resizeMode: 'cover',
   },
   // Thêm styles mới cho phần Auth
   authContainer: {
