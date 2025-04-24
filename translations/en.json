@@ -14,7 +14,41 @@
     "error": "User information not found. Please log in.",
     "goToLogin": "Go to login page",
     "configuration": "Configuration",
-    "language": "Language"
+    "language": "Language",
+    "faceRegistration": "Face Registration",
+    "noFacesRegistered": "No faces registered yet",
+    "addNewFace": "Register New Face",
+    "registerNewFace": "Register New Face",
+    "faceName": "Name",
+    "faceNamePlaceholder": "Enter name for this face",
+    "faceImage": "Face Image",
+    "selectImage": "Select Image",
+    "changeImage": "Change Image",
+    "faceRegisteredSuccess": "Face registered successfully!",
+    "deleteFaceTitle": "Delete Face",
+    "deleteFaceConfirm": "Are you sure you want to delete this face?",
+    "noCameraAccess": "Camera permission is denied. Please enable camera access in your device settings.",
+    "faceLookStraight": "Please look straight at the camera",
+    "faceTurnLeft": "Please turn your face slightly left",
+    "faceTurnRight": "Please turn your face slightly right",
+    "faceLookUp": "Please look slightly up",
+    "faceLookDown": "Please look slightly down",
+    "noFaceDetected": "No face detected. Please position your face in the center.",
+    "holdStill": "Hold still, capturing...",
+    "capturingIn": "Capturing",
+    "faceCaptureFailed": "Failed to capture face image. Please try again.",
+    "processingFaces": "Processing face images...",
+    "captureProgress": "{{completed}}/{{total}} angles captured",
+    "manualCapture": "Capture This Angle",
+    "capturing": "Capturing...",
+    "faceAngle": {
+      "front": "Front",
+      "left": "Left",
+      "right": "Right",
+      "up": "Up",
+      "down": "Down"
+    },
+    "back": "Back"
   },
   "language": {
     "select": "Select Language",
@@ -25,7 +59,9 @@
     "cancel": "Cancel",
     "success": "Success",
     "error": "Error",
-    "close": "Close"
+    "close": "Close",
+    "ok": "OK",
+    "delete": "Delete"
   },
   "auth": {
     "signedOut": "Signed out successfully!",
@@ -61,6 +97,9 @@
     "signOutSuccess": "Successfully signed out!"
   },
   "error": {
-    "signOut": "An error occurred while signing out"
+    "signOut": "An error occurred while signing out",
+    "cameraPermissions": "Camera permissions are required to select an image",
+    "saveFaceFailed": "Failed to save face data",
+    "deleteFaceFailed": "Failed to delete face data"
   }
 }

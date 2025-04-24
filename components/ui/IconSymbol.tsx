@@ -3,7 +3,7 @@
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { SymbolWeight } from 'expo-symbols';
 import React from 'react';
-import { OpaqueColorValue, StyleProp, ViewStyle } from 'react-native';
+import { OpaqueColorValue, StyleProp, TextStyle } from 'react-native';
 
 // Add your SFSymbol to MaterialIcons mappings here.
 const MAPPING = {
@@ -12,8 +12,17 @@ const MAPPING = {
   'house.fill': 'home',
   'paperplane.fill': 'send',
   'person.fill': 'person', // Thêm mapping cho biểu tượng profile
+  'person': 'person',  // Added for face front view
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'chevron.left': 'chevron-left', // Added for face left view
+  'chevron.up': 'keyboard-arrow-up', // Added for face up view
+  'chevron.down': 'keyboard-arrow-down', // Added for face down view
+  'face.dashed': 'face', // Icon for face recognition
+  'plus.circle': 'add-circle', // Icon for adding new faces
+  'camera.fill': 'camera', // Added for camera icon
+  'globe': 'language', // Added for language icon
+  'photo': 'photo', // Added for photo icon
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
@@ -37,7 +46,7 @@ export function IconSymbol({
   name: IconSymbolName;
   size?: number;
   color: string | OpaqueColorValue;
-  style?: StyleProp<ViewStyle>;
+  style?: StyleProp<TextStyle>;
   weight?: SymbolWeight;
 }) {
   return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;

@@ -14,7 +14,41 @@
     "error": "Không tìm thấy thông tin người dùng. Vui lòng đăng nhập.",
     "goToLogin": "Đến trang đăng nhập",
     "configuration": "Cấu hình",
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "faceRegistration": "Khuôn mặt",
+    "noFacesRegistered": "Chưa có khuôn mặt nào được đăng ký",
+    "addNewFace": "Đăng ký khuôn mặt mới",
+    "registerNewFace": "Đăng ký khuôn mặt mới",
+    "faceName": "Tên",
+    "faceNamePlaceholder": "Nhập tên cho khuôn mặt này",
+    "faceImage": "Hình ảnh khuôn mặt",
+    "selectImage": "Chọn hình ảnh",
+    "changeImage": "Thay đổi hình ảnh",
+    "faceRegisteredSuccess": "Đăng ký khuôn mặt thành công!",
+    "deleteFaceTitle": "Xóa khuôn mặt",
+    "deleteFaceConfirm": "Bạn có chắc chắn muốn xóa khuôn mặt này không?",
+    "noCameraAccess": "Quyền truy cập camera bị từ chối. Vui lòng cho phép truy cập camera trong cài đặt thiết bị của bạn.",
+    "faceLookStraight": "Vui lòng nhìn thẳng vào camera",
+    "faceTurnLeft": "Vui lòng xoay mặt sang trái một chút",
+    "faceTurnRight": "Vui lòng xoay mặt sang phải một chút",
+    "faceLookUp": "Vui lòng nhìn lên trên một chút",
+    "faceLookDown": "Vui lòng nhìn xuống dưới một chút",
+    "noFaceDetected": "Không phát hiện khuôn mặt. Vui lòng đặt khuôn mặt ở giữa.",
+    "holdStill": "Giữ yên, đang chụp...",
+    "capturingIn": "Đang chụp",
+    "faceCaptureFailed": "Không thể chụp ảnh khuôn mặt. Vui lòng thử lại.",
+    "processingFaces": "Đang xử lý hình ảnh khuôn mặt...",
+    "captureProgress": "Đã chụp {{completed}}/{{total}} góc",
+    "manualCapture": "Chụp góc này",
+    "capturing": "Đang chụp...",
+    "faceAngle": {
+      "front": "Trước",
+      "left": "Trái",
+      "right": "Phải",
+      "up": "Trên",
+      "down": "Dưới"
+    },
+    "back": "Trở lại"
   },
   "language": {
     "select": "Chọn ngôn ngữ",
@@ -25,7 +59,9 @@
     "cancel": "Hủy",
     "success": "Thành công",
     "error": "Lỗi",
-    "close": "Đóng"
+    "close": "Đóng",
+    "ok": "OK",
+    "delete": "Xóa"
   },
   "auth": {
     "signedOut": "Đã đăng xuất thành công!",
@@ -61,6 +97,9 @@
     "signOutSuccess": "Đã đăng xuất thành công!"
   },
   "error": {
-    "signOut": "Đã xảy ra lỗi khi đăng xuất"
+    "signOut": "Đã xảy ra lỗi khi đăng xuất",
+    "cameraPermissions": "Cần cấp quyền truy cập thư viện ảnh để chọn hình",
+    "saveFaceFailed": "Không thể lưu dữ liệu khuôn mặt",
+    "deleteFaceFailed": "Không thể xóa dữ liệu khuôn mặt"
   }
 }
