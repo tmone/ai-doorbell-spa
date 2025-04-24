@@ -1,0 +1,66 @@
+{
+  "profile": {
+    "title": "Personal Information",
+    "welcome": "Hello, {{name}}!",
+    "employeeId": "Employee ID: {{id}}",
+    "department": {
+      "label": "Department: {{department}}",
+      "SM": "Stepmedia (SM)",
+      "MS": "MediaStep (MS)"
+    },
+    "email": "Email: {{email}}",
+    "signOut": "Sign Out",
+    "loading": "Loading information...",
+    "error": "User information not found. Please log in.",
+    "goToLogin": "Go to login page",
+    "configuration": "Configuration",
+    "language": "Language"
+  },
+  "language": {
+    "select": "Select Language",
+    "current": "Current: {{language}}"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "success": "Success",
+    "error": "Error",
+    "close": "Close"
+  },
+  "auth": {
+    "signedOut": "Signed out successfully!",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "employeeId": "Employee ID",
+    "fullName": "Full Name",
+    "department": "Department:",
+    "SM": "Stepmedia (SM)",
+    "MS": "MediaStep (MS)",
+    "signUpButton": "Sign Up",
+    "signInButton": "Sign In",
+    "switchToSignIn": "Already have an account? Sign in",
+    "switchToSignUp": "Don't have an account? Sign up",
+    "signInSuccess": "Successfully signed in!",
+    "signUpSuccess": "Account created and signed in successfully!",
+    "requiredFields": "Please enter email and password",
+    "requiredSignUpFields": "Please enter employee ID and full name",
+    "emailExists": "This email is already registered. Please use another email.",
+    "employeeIdExists": "This employee ID is already registered. Please check again.",
+    "userNotFound": "No account found with this email",
+    "wrongPassword": "Incorrect password",
+    "error": "Authentication failed. Please try again."
+  },
+  "home": {
+    "welcome": "Hello, {{name}}!",
+    "title": "AI Doorbell",
+    "subtitle": "Smart Security System",
+    "description": "Control and monitor your doorbell with facial recognition technology from Google ML Kit.",
+    "signOut": "Sign Out",
+    "signOutSuccess": "Successfully signed out!"
+  },
+  "error": {
+    "signOut": "An error occurred while signing out"
+  }
+}

@@ -11,6 +11,7 @@ const MAPPING = {
   // See SF Symbols in the SF Symbols app on Mac.
   'house.fill': 'home',
   'paperplane.fill': 'send',
+  'person.fill': 'person', // Thêm mapping cho biểu tượng profile
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
 } as Partial<

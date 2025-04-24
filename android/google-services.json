@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272823192726",
+    "project_id": "ai-doorbell-bc01e",
+    "storage_bucket": "ai-doorbell-bc01e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272823192726:android:8ee53b880b6dafd20d06b7",
+        "android_client_info": {
+          "package_name": "com.vietguess.aidoorbell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwPHxgP-76q3oU8gI-ZHAckWDVf5UIR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

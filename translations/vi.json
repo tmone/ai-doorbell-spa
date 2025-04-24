@@ -1,0 +1,66 @@
+{
+  "profile": {
+    "title": "Thông tin cá nhân",
+    "welcome": "Xin chào, {{name}}!",
+    "employeeId": "Mã nhân viên: {{id}}",
+    "department": {
+      "label": "Phòng ban: {{department}}",
+      "SM": "Stepmedia (SM)",
+      "MS": "MediaStep (MS)"
+    },
+    "email": "Email: {{email}}",
+    "signOut": "Đăng xuất",
+    "loading": "Đang tải thông tin...",
+    "error": "Không tìm thấy thông tin người dùng. Vui lòng đăng nhập.",
+    "goToLogin": "Đến trang đăng nhập",
+    "configuration": "Cấu hình",
+    "language": "Ngôn ngữ"
+  },
+  "language": {
+    "select": "Chọn ngôn ngữ",
+    "current": "Hiện tại: {{language}}"
+  },
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "success": "Thành công",
+    "error": "Lỗi",
+    "close": "Đóng"
+  },
+  "auth": {
+    "signedOut": "Đã đăng xuất thành công!",
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký tài khoản",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "employeeId": "Mã nhân viên",
+    "fullName": "Tên đầy đủ",
+    "department": "Phòng ban:",
+    "SM": "Stepmedia (SM)",
+    "MS": "MediaStep (MS)",
+    "signUpButton": "Đăng ký",
+    "signInButton": "Đăng nhập",
+    "switchToSignIn": "Đã có tài khoản? Đăng nhập",
+    "switchToSignUp": "Chưa có tài khoản? Đăng ký",
+    "signInSuccess": "Đăng nhập thành công!",
+    "signUpSuccess": "Tài khoản đã được tạo và đăng nhập thành công!",
+    "requiredFields": "Vui lòng nhập email và mật khẩu",
+    "requiredSignUpFields": "Vui lòng nhập đầy đủ mã nhân viên và tên đầy đủ",
+    "emailExists": "Email này đã được đăng ký. Vui lòng sử dụng email khác.",
+    "employeeIdExists": "Mã nhân viên này đã được đăng ký. Vui lòng kiểm tra lại.",
+    "userNotFound": "Không tìm thấy tài khoản với email này",
+    "wrongPassword": "Mật khẩu không chính xác",
+    "error": "Xác thực không thành công. Vui lòng thử lại."
+  },
+  "home": {
+    "welcome": "Xin chào, {{name}}!",
+    "title": "AI Doorbell",
+    "subtitle": "Hệ thống An ninh Thông minh",
+    "description": "Điều khiển và giám sát chuông cửa của bạn với công nghệ nhận diện khuôn mặt từ Google ML Kit.",
+    "signOut": "Đăng xuất",
+    "signOutSuccess": "Đã đăng xuất thành công!"
+  },
+  "error": {
+    "signOut": "Đã xảy ra lỗi khi đăng xuất"
+  }
+}
